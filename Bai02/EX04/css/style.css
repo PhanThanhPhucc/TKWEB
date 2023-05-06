@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color:rgb(80, 77, 77);
+  border-style:solid;
+  border-bottom-width: 3px;
+  border-bottom-color: orangered;
+  
+}
+header h1{
+  color:white;
+  padding-top:20px;
+}
+
+.highlight{
+  color:orangered;
+}
+header a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header ul{
+  padding-bottom: 10px;
+  list-style:none;
+  display: flex;   
+  justify-content: flex-end; 
+}
+
+header li{
+  font-size: 20px;
+  margin-left:20px;
+  color:white;
+}
+#current{
+  color:orangered;
+}
+footer{
+  background-color: orangered;
+  color:white;
+  text-align: center;
+}
+footer p{
+  padding-top:30px;
+  padding-bottom:30px;
+  
+}
