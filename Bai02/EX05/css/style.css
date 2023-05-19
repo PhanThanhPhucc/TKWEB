@@ -1,77 +1,80 @@
 body{
+    padding: 0px;
     margin: 0px;
-    padding:0px;
-
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(19, 16, 16);
+  
 }
+
 
 /* Global */
-.container{
-    padding-left:50px;
-
+section .container{
+    margin: 50px;
 }
 
+
 ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
+ 
+
 }
 
 /* Header **/
-header{
-    background-color:rgb(80, 77, 77);
-    border-style:solid;
-    border-bottom-width: 3px;
-    border-bottom-color: orangered;
-
-}
+header {
+    width: 100%;
+    background-color: rgb(167, 95, 14);
+    display: inline-block;
+    border-bottom: 3px solid  rgb(218, 51, 21);
+  }
+  
 
 header a{
-  
-    color:rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(3, 22, 19);
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 header li{
-    margin-left: 20px;
-    display:inline-block;
-    margin-right: 20px;
-    font-size: 20px;
+   display: inline-block;
+   margin: 0 10px;
 }
 
 header #branding{
-    text-align: left;
+
 }
 
 header #branding h1{
-    color:white;
-    padding-top:20px;
-}
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 50px;
 
+    color: rgb(3, 22, 19);
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
 header nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left:500px;
-    padding-top:0;
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+    
 }
 
 header .highlight, header .current a{
-    color:orangered;
-
+    color: white;
 }
 
 header a:hover{
-  font-weight: bold;
-
-}
+    background-color: greenyellow;
+    color: hotpink;
+}   
 
 footer{
-    background-color: orangered;
-    color:white;
-    text-align: center;
-    padding-top:25px;
-    padding-bottom:25px;
-
+     background-color: rgb(206, 176, 76);
+    height: 60px;
+    text-align: center;/* padding-left: 500px; */
+    padding-top: 30px;
+    font-size: 18px;
 }
