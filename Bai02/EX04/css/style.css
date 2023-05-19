@@ -1,50 +1,77 @@
 body {
-  margin: 0;
-  padding: 0;
-}
-header{
-  background-color:rgb(80, 77, 77);
-  border-style:solid;
-  border-bottom-width: 3px;
-  border-bottom-color: orangered;
-  
-}
-header h1{
-  color:white;
-  padding-top:20px;
+  padding: 0px;
+  margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;;
+  color: rgb(19, 16, 16);
+
+
 }
 
-.highlight{
-  color:orangered;
+/* Global */
+.container {
 }
+
+ul {
+
+}
+.button_1{
+
+}
+
+
+/* Header **/
+header {
+  width: 100%;
+  background-color: rgb(167, 95, 14);
+  display: inline-block;
+  border-bottom: 3px solid  rgb(218, 51, 21);
+}
+
 header a{
-  color:rgb(255, 255, 255);
   text-decoration: none;
-  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(3, 22, 19);
 }
 
-header ul{
-  padding-bottom: 10px;
-  list-style:none;
-  display: flex;   
-  justify-content: flex-end; 
+header li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-header li{
-  font-size: 20px;
-  margin-left:20px;
-  color:white;
+header #branding {
 }
-#current{
-  color:orangered;
+
+header #branding h1 {
 }
-footer{
-  background-color: orangered;
-  color:white;
-  text-align: center;
+
+header nav{
+  float: right;
+  margin-top: -70px;
+  margin-right: 50px;
+
 }
-footer p{
-  padding-top:30px;
-  padding-bottom:30px;
-  
+
+header .highlight,
+header .current a {
+  color: white;
+}
+
+header a:hover{
+  background-color: greenyellow;
+  color: hotpink;
+}
+
+footer {
+  background-color: rgb(206, 176, 76);
+  text-align: center;/* padding-left: 500px; */
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+} 
+
+#newsletter form input[type="email"],
+.quote input,
+.quote textarea {
+  width: 100%;
+  margin: 8px 0;
 }
